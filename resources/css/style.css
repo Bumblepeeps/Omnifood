@@ -150,9 +150,88 @@ a:active {
 /*-----------------------------------*/
 /* BUTTONS */
 /*-----------------------------------*/
+.button:link p {
+    visibility: hidden;
+    display: inline;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.button:active span {
+    display: none;
+}
+
+.button:hover p {
+    opacity: 1;
+    margin-left: 6px;
+    visibility: visible;
+}
+.button p.post {
+    display: none;
+
+}
+.button:active p.post {
+    display: inline;
+    
+}
+.button p.pre {
+    display: inline;
+}
+
+
+.button:active p.pre {
+    display: none;
+}
+
+.button:visited{
+    background-color: white;
+    opacity: 1;
+    margin-left: 6px;
+    visibility: visible; 
+}
+
+.button:link,
+.button:visited {
+    display: inline-block;
+    padding: 11px 17px;
+    height: 50px;
+    width: 50px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s, width 0.4s;
+    text-align: center;
+    vertical-align: middle;
+} 
+
+.button:hover, 
+.button:active {
+    width: 160px;
+}
+
+.expands:link,
+.expands:visited {
+    background-color: #e67e22;
+    border: 2px solid #e67e22; 
+    color: #fff;
+    margin-right: 15px;
+} 
+.button:active {
+    background-color: transparent;
+}
 
 
 
+
+
+
+
+
+
+.btn-full:hover,
+.btn-full:active {
+    border: 2px solid #cf6d17; 
+}
 
 .btn:link,
 .btn:visited {
