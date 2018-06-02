@@ -121,7 +121,7 @@ h2:after {
     text-align: center;
     color: #e67e22;
     font-size: 120%;
-    margin-right: 10px;
+    margin-right: 6px;
     /*secrets to align text and icons*/
     
     line-height: 120%;
@@ -493,6 +493,10 @@ cite img {
 .plan-box ul li {
     padding: 5px 0;
 }
+
+.strike {
+    opacity: 0.3;
+}
 /*-----------------------------------*/
 /* Contact Form */
 /*-----------------------------------*/
@@ -515,7 +519,9 @@ textarea {
 }
 
 input[type=checkbox] {
-    margin: 10px 5px 10px 0;
+    margin: 5px 5px 8px 0;
+    height: 16px;
+    width: 16px;
 }
 
 *:focus {
